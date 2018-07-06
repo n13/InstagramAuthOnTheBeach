@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BE1479C2F2504ADF0101115EDA63C3F /* Pods-InstagramAuthOnTheBeach_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8810E7278784D6A58B86D5AA5ED182A9 /* Pods-InstagramAuthOnTheBeach_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24C1036E20EF039300735833 /* UIView+LayoutConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C1036820EF039300735833 /* UIView+LayoutConstraints.swift */; };
+		24C1036F20EF039300735833 /* UIWebView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C1036920EF039300735833 /* UIWebView+Ext.swift */; };
+		24C1037020EF039300735833 /* String+Urlencode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C1036A20EF039300735833 /* String+Urlencode.swift */; };
+		24C1037120EF039300735833 /* URL+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C1036B20EF039300735833 /* URL+Ext.swift */; };
+		24C1037220EF039300735833 /* BaseWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C1036C20EF039300735833 /* BaseWebViewController.swift */; };
+		24C1037320EF039300735833 /* InstagramAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C1036D20EF039300735833 /* InstagramAuthViewController.swift */; };
+		4E9635695108CBB2F8DC9D300985C920 /* Pods-InstagramAuthOnTheBeach_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A31CE6341CD3AE5BD574AE62D9AACCE7 /* Pods-InstagramAuthOnTheBeach_Example-dummy.m */; };
+		4FCB7088485A87123AC06EF469A12DD0 /* InstagramAuthOnTheBeach-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C1385F6E8B9E6CAA58C175EE119ADA /* InstagramAuthOnTheBeach-dummy.m */; };
+		5C50E51F7A8E06FE1DD84109614BA391 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		AD8E2EC543F905D947B4D082F8413305 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		BF41005B472952CC90C73A585DA4ED01 /* InstagramAuthOnTheBeach-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1F7E3510D80C504563230260C76DFA2 /* InstagramAuthOnTheBeach-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEEC0F19D962250616EBDEA6603935AD /* Pods-InstagramAuthOnTheBeach_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67F335348FF08895BA64B5D87C47F7B8 /* Pods-InstagramAuthOnTheBeach_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2918990AC8A6D0C6C188676B939C530 /* Pods-InstagramAuthOnTheBeach_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B78B8646321C412378697D425487931 /* Pods-InstagramAuthOnTheBeach_Tests-dummy.m */; };
+		F8B4694AFBD00F6096F66278E5DE9312 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49AFCC232A2C475CCBF6038C506A51A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CB0FC56AC19C2F0478786346DF873AA;
+			remoteInfo = "Pods-InstagramAuthOnTheBeach_Example";
+		};
+		FA51CD38E2C8843B80CC4A4BC0FA0F78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49D59D1E9A5F8EB29F0983C8FFDFE833;
+			remoteInfo = InstagramAuthOnTheBeach;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0332D3D3C2739023B40072E99E04F2D6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		09C1385F6E8B9E6CAA58C175EE119ADA /* InstagramAuthOnTheBeach-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "InstagramAuthOnTheBeach-dummy.m"; sourceTree = "<group>"; };
+		1587AFB1AA49B91FE4ABD0553649BF05 /* InstagramAuthOnTheBeach.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InstagramAuthOnTheBeach.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21CAD6A86E546F6E8C4E66D02B038CB5 /* Pods-InstagramAuthOnTheBeach_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InstagramAuthOnTheBeach_Example.release.xcconfig"; sourceTree = "<group>"; };
+		23264C68972CC288F28F3F3EB7B00BEE /* InstagramAuthOnTheBeach.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = InstagramAuthOnTheBeach.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		24C1036820EF039300735833 /* UIView+LayoutConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+LayoutConstraints.swift"; sourceTree = "<group>"; };
+		24C1036920EF039300735833 /* UIWebView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIWebView+Ext.swift"; sourceTree = "<group>"; };
+		24C1036A20EF039300735833 /* String+Urlencode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Urlencode.swift"; sourceTree = "<group>"; };
+		24C1036B20EF039300735833 /* URL+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+Ext.swift"; sourceTree = "<group>"; };
+		24C1036C20EF039300735833 /* BaseWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseWebViewController.swift; sourceTree = "<group>"; };
+		24C1036D20EF039300735833 /* InstagramAuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramAuthViewController.swift; sourceTree = "<group>"; };
+		2BDC37E21D771E097BD149DF9F47C209 /* Pods-InstagramAuthOnTheBeach_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-InstagramAuthOnTheBeach_Example.modulemap"; sourceTree = "<group>"; };
+		33A6F983F11978A18B18C917933B50A8 /* Pods-InstagramAuthOnTheBeach_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InstagramAuthOnTheBeach_Example-resources.sh"; sourceTree = "<group>"; };
+		3648C1B16245AC5B6122D33505D97385 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DA47254E47626B1B69EC923DC9861CA /* InstagramAuthOnTheBeach-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InstagramAuthOnTheBeach-prefix.pch"; sourceTree = "<group>"; };
+		406A8F711631414CDEA998A8EBAA291E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41E00186887D024D75621EF46380FB52 /* Pods-InstagramAuthOnTheBeach_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InstagramAuthOnTheBeach_Tests-resources.sh"; sourceTree = "<group>"; };
+		4CC0879E508C33D26739C699C63E29E5 /* Pods-InstagramAuthOnTheBeach_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InstagramAuthOnTheBeach_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		55A28F4F7FE67EB3C55A0D20F3BCABF2 /* Pods_InstagramAuthOnTheBeach_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramAuthOnTheBeach_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58D3B9CE696E43B57BC3B33B374AA8C7 /* Pods-InstagramAuthOnTheBeach_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InstagramAuthOnTheBeach_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5B32A19A55C89489BD8A409F907C4405 /* Pods-InstagramAuthOnTheBeach_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InstagramAuthOnTheBeach_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		60B36C1C548E2EA147F1158EB034734E /* Pods-InstagramAuthOnTheBeach_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InstagramAuthOnTheBeach_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		67F335348FF08895BA64B5D87C47F7B8 /* Pods-InstagramAuthOnTheBeach_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InstagramAuthOnTheBeach_Example-umbrella.h"; sourceTree = "<group>"; };
+		8810E7278784D6A58B86D5AA5ED182A9 /* Pods-InstagramAuthOnTheBeach_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InstagramAuthOnTheBeach_Tests-umbrella.h"; sourceTree = "<group>"; };
+		887FAA283D680900295163951DC85074 /* InstagramAuthOnTheBeach.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InstagramAuthOnTheBeach.xcconfig; sourceTree = "<group>"; };
+		8EACAFE43237658584D3809432E3C3CE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		946A3A2DAF91C59FC020578385F2E8DE /* Pods-InstagramAuthOnTheBeach_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InstagramAuthOnTheBeach_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		96679DFCCD6252EDFEC64BC2ADAB8578 /* Pods-InstagramAuthOnTheBeach_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InstagramAuthOnTheBeach_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9B78B8646321C412378697D425487931 /* Pods-InstagramAuthOnTheBeach_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InstagramAuthOnTheBeach_Tests-dummy.m"; sourceTree = "<group>"; };
+		9F1E0148B0A6B253F7C62CAA4DF3E1A0 /* Pods-InstagramAuthOnTheBeach_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InstagramAuthOnTheBeach_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9FCAC70DDDF960CC9DE4723DA4D54D24 /* Pods_InstagramAuthOnTheBeach_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramAuthOnTheBeach_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A132AB6E9627CEC25E099AA28095ECF0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A31CE6341CD3AE5BD574AE62D9AACCE7 /* Pods-InstagramAuthOnTheBeach_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InstagramAuthOnTheBeach_Example-dummy.m"; sourceTree = "<group>"; };
+		B693828FC36AE5272577F41B5A46DAD2 /* Pods-InstagramAuthOnTheBeach_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InstagramAuthOnTheBeach_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BB87D3424BBF4738F5C7F825D65093C5 /* Pods-InstagramAuthOnTheBeach_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InstagramAuthOnTheBeach_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BBDB08E9295857A352117FC8A156C5F5 /* InstagramAuthOnTheBeach.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = InstagramAuthOnTheBeach.modulemap; sourceTree = "<group>"; };
+		D1F7E3510D80C504563230260C76DFA2 /* InstagramAuthOnTheBeach-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InstagramAuthOnTheBeach-umbrella.h"; sourceTree = "<group>"; };
+		FC2C65307858CB321CC13C3E7425A203 /* Pods-InstagramAuthOnTheBeach_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-InstagramAuthOnTheBeach_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31E265609DE0299F5B5F6CAA5FC8DA9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B4694AFBD00F6096F66278E5DE9312 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF79068AD46778B8B7E07A35210D225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C50E51F7A8E06FE1DD84109614BA391 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2A567902BD1950C9426B8516057769E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD8E2EC543F905D947B4D082F8413305 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19A9173F45821F8AA88D983EACAC90E7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				406A8F711631414CDEA998A8EBAA291E /* Info.plist */,
+				BBDB08E9295857A352117FC8A156C5F5 /* InstagramAuthOnTheBeach.modulemap */,
+				887FAA283D680900295163951DC85074 /* InstagramAuthOnTheBeach.xcconfig */,
+				09C1385F6E8B9E6CAA58C175EE119ADA /* InstagramAuthOnTheBeach-dummy.m */,
+				3DA47254E47626B1B69EC923DC9861CA /* InstagramAuthOnTheBeach-prefix.pch */,
+				D1F7E3510D80C504563230260C76DFA2 /* InstagramAuthOnTheBeach-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/InstagramAuthOnTheBeach";
+			sourceTree = "<group>";
+		};
+		24C1036720EF039300735833 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				24C1036820EF039300735833 /* UIView+LayoutConstraints.swift */,
+				24C1036920EF039300735833 /* UIWebView+Ext.swift */,
+				24C1036A20EF039300735833 /* String+Urlencode.swift */,
+				24C1036B20EF039300735833 /* URL+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		24C1037420EF10C700735833 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				24C1036C20EF039300735833 /* BaseWebViewController.swift */,
+				24C1036D20EF039300735833 /* InstagramAuthViewController.swift */,
+				24C1036720EF039300735833 /* Extensions */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4E4B911DD85D98F307FFED5B7D4F5476 /* Pods-InstagramAuthOnTheBeach_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3648C1B16245AC5B6122D33505D97385 /* Info.plist */,
+				2BDC37E21D771E097BD149DF9F47C209 /* Pods-InstagramAuthOnTheBeach_Example.modulemap */,
+				96679DFCCD6252EDFEC64BC2ADAB8578 /* Pods-InstagramAuthOnTheBeach_Example-acknowledgements.markdown */,
+				4CC0879E508C33D26739C699C63E29E5 /* Pods-InstagramAuthOnTheBeach_Example-acknowledgements.plist */,
+				A31CE6341CD3AE5BD574AE62D9AACCE7 /* Pods-InstagramAuthOnTheBeach_Example-dummy.m */,
+				B693828FC36AE5272577F41B5A46DAD2 /* Pods-InstagramAuthOnTheBeach_Example-frameworks.sh */,
+				33A6F983F11978A18B18C917933B50A8 /* Pods-InstagramAuthOnTheBeach_Example-resources.sh */,
+				67F335348FF08895BA64B5D87C47F7B8 /* Pods-InstagramAuthOnTheBeach_Example-umbrella.h */,
+				58D3B9CE696E43B57BC3B33B374AA8C7 /* Pods-InstagramAuthOnTheBeach_Example.debug.xcconfig */,
+				21CAD6A86E546F6E8C4E66D02B038CB5 /* Pods-InstagramAuthOnTheBeach_Example.release.xcconfig */,
+			);
+			name = "Pods-InstagramAuthOnTheBeach_Example";
+			path = "Target Support Files/Pods-InstagramAuthOnTheBeach_Example";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		63EB60C29BC8EC8C594596267E2EE005 /* Pods-InstagramAuthOnTheBeach_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8EACAFE43237658584D3809432E3C3CE /* Info.plist */,
+				FC2C65307858CB321CC13C3E7425A203 /* Pods-InstagramAuthOnTheBeach_Tests.modulemap */,
+				60B36C1C548E2EA147F1158EB034734E /* Pods-InstagramAuthOnTheBeach_Tests-acknowledgements.markdown */,
+				9F1E0148B0A6B253F7C62CAA4DF3E1A0 /* Pods-InstagramAuthOnTheBeach_Tests-acknowledgements.plist */,
+				9B78B8646321C412378697D425487931 /* Pods-InstagramAuthOnTheBeach_Tests-dummy.m */,
+				5B32A19A55C89489BD8A409F907C4405 /* Pods-InstagramAuthOnTheBeach_Tests-frameworks.sh */,
+				41E00186887D024D75621EF46380FB52 /* Pods-InstagramAuthOnTheBeach_Tests-resources.sh */,
+				8810E7278784D6A58B86D5AA5ED182A9 /* Pods-InstagramAuthOnTheBeach_Tests-umbrella.h */,
+				946A3A2DAF91C59FC020578385F2E8DE /* Pods-InstagramAuthOnTheBeach_Tests.debug.xcconfig */,
+				BB87D3424BBF4738F5C7F825D65093C5 /* Pods-InstagramAuthOnTheBeach_Tests.release.xcconfig */,
+			);
+			name = "Pods-InstagramAuthOnTheBeach_Tests";
+			path = "Target Support Files/Pods-InstagramAuthOnTheBeach_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D65563991C1CB4C6AE8E60205475318A /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F62AC9B72B312A1EA38B846D3FB185C0 /* Products */,
+				AC9177A44895D2AF4C0C469F384CCAC2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		89B3DDA6C4ACCC289F9368834F328816 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				23264C68972CC288F28F3F3EB7B00BEE /* InstagramAuthOnTheBeach.podspec */,
+				0332D3D3C2739023B40072E99E04F2D6 /* LICENSE */,
+				A132AB6E9627CEC25E099AA28095ECF0 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		AC9177A44895D2AF4C0C469F384CCAC2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E4B911DD85D98F307FFED5B7D4F5476 /* Pods-InstagramAuthOnTheBeach_Example */,
+				63EB60C29BC8EC8C594596267E2EE005 /* Pods-InstagramAuthOnTheBeach_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		ACE59A3F609DD93AF23CB90BA0CC2AA0 /* InstagramAuthOnTheBeach */ = {
+			isa = PBXGroup;
+			children = (
+				24C1037420EF10C700735833 /* Classes */,
+				89B3DDA6C4ACCC289F9368834F328816 /* Pod */,
+				19A9173F45821F8AA88D983EACAC90E7 /* Support Files */,
+			);
+			name = InstagramAuthOnTheBeach;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D65563991C1CB4C6AE8E60205475318A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACE59A3F609DD93AF23CB90BA0CC2AA0 /* InstagramAuthOnTheBeach */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F62AC9B72B312A1EA38B846D3FB185C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1587AFB1AA49B91FE4ABD0553649BF05 /* InstagramAuthOnTheBeach.framework */,
+				9FCAC70DDDF960CC9DE4723DA4D54D24 /* Pods_InstagramAuthOnTheBeach_Example.framework */,
+				55A28F4F7FE67EB3C55A0D20F3BCABF2 /* Pods_InstagramAuthOnTheBeach_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2626C97ABD12273F7EF6B84CC8D585E8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BE1479C2F2504ADF0101115EDA63C3F /* Pods-InstagramAuthOnTheBeach_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71C21D33EC1C811F34DFB96B567C0272 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEEC0F19D962250616EBDEA6603935AD /* Pods-InstagramAuthOnTheBeach_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6EC68B68C4E4D07EEC9E991B099FE54 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF41005B472952CC90C73A585DA4ED01 /* InstagramAuthOnTheBeach-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		49D59D1E9A5F8EB29F0983C8FFDFE833 /* InstagramAuthOnTheBeach */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A055294691A6FA031AFBA51A15D38BA /* Build configuration list for PBXNativeTarget "InstagramAuthOnTheBeach" */;
+			buildPhases = (
+				28B15F9D0E5E9153B2DDB3E56C864781 /* Sources */,
+				31E265609DE0299F5B5F6CAA5FC8DA9E /* Frameworks */,
+				A6EC68B68C4E4D07EEC9E991B099FE54 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstagramAuthOnTheBeach;
+			productName = InstagramAuthOnTheBeach;
+			productReference = 1587AFB1AA49B91FE4ABD0553649BF05 /* InstagramAuthOnTheBeach.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4CB0FC56AC19C2F0478786346DF873AA /* Pods-InstagramAuthOnTheBeach_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD46192977E2D3BAC1EEF860C3C14504 /* Build configuration list for PBXNativeTarget "Pods-InstagramAuthOnTheBeach_Example" */;
+			buildPhases = (
+				E3BAB833C537790E154DD40980DF8825 /* Sources */,
+				E2A567902BD1950C9426B8516057769E /* Frameworks */,
+				71C21D33EC1C811F34DFB96B567C0272 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0060753EB0DA98594EE9721A8232CF0F /* PBXTargetDependency */,
+			);
+			name = "Pods-InstagramAuthOnTheBeach_Example";
+			productName = "Pods-InstagramAuthOnTheBeach_Example";
+			productReference = 9FCAC70DDDF960CC9DE4723DA4D54D24 /* Pods_InstagramAuthOnTheBeach_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9C7A4B2A1571C0CACF8AE7E9A7FA1B78 /* Pods-InstagramAuthOnTheBeach_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D0AED04E425549833749C099263F36E /* Build configuration list for PBXNativeTarget "Pods-InstagramAuthOnTheBeach_Tests" */;
+			buildPhases = (
+				5BDB572574968D380056368A00BE0FBB /* Sources */,
+				9FF79068AD46778B8B7E07A35210D225 /* Frameworks */,
+				2626C97ABD12273F7EF6B84CC8D585E8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84167364F9BC8CD7B95F2AB5AC7EE4DA /* PBXTargetDependency */,
+			);
+			name = "Pods-InstagramAuthOnTheBeach_Tests";
+			productName = "Pods-InstagramAuthOnTheBeach_Tests";
+			productReference = 55A28F4F7FE67EB3C55A0D20F3BCABF2 /* Pods_InstagramAuthOnTheBeach_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F62AC9B72B312A1EA38B846D3FB185C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49D59D1E9A5F8EB29F0983C8FFDFE833 /* InstagramAuthOnTheBeach */,
+				4CB0FC56AC19C2F0478786346DF873AA /* Pods-InstagramAuthOnTheBeach_Example */,
+				9C7A4B2A1571C0CACF8AE7E9A7FA1B78 /* Pods-InstagramAuthOnTheBeach_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28B15F9D0E5E9153B2DDB3E56C864781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FCB7088485A87123AC06EF469A12DD0 /* InstagramAuthOnTheBeach-dummy.m in Sources */,
+				24C1037320EF039300735833 /* InstagramAuthViewController.swift in Sources */,
+				24C1037120EF039300735833 /* URL+Ext.swift in Sources */,
+				24C1036F20EF039300735833 /* UIWebView+Ext.swift in Sources */,
+				24C1037220EF039300735833 /* BaseWebViewController.swift in Sources */,
+				24C1037020EF039300735833 /* String+Urlencode.swift in Sources */,
+				24C1036E20EF039300735833 /* UIView+LayoutConstraints.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BDB572574968D380056368A00BE0FBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2918990AC8A6D0C6C188676B939C530 /* Pods-InstagramAuthOnTheBeach_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3BAB833C537790E154DD40980DF8825 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E9635695108CBB2F8DC9D300985C920 /* Pods-InstagramAuthOnTheBeach_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0060753EB0DA98594EE9721A8232CF0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = InstagramAuthOnTheBeach;
+			target = 49D59D1E9A5F8EB29F0983C8FFDFE833 /* InstagramAuthOnTheBeach */;
+			targetProxy = FA51CD38E2C8843B80CC4A4BC0FA0F78 /* PBXContainerItemProxy */;
+		};
+		84167364F9BC8CD7B95F2AB5AC7EE4DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-InstagramAuthOnTheBeach_Example";
+			target = 4CB0FC56AC19C2F0478786346DF873AA /* Pods-InstagramAuthOnTheBeach_Example */;
+			targetProxy = 49AFCC232A2C475CCBF6038C506A51A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		007FB8F48CAFD29B8119D78D10FF1842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB87D3424BBF4738F5C7F825D65093C5 /* Pods-InstagramAuthOnTheBeach_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-InstagramAuthOnTheBeach_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InstagramAuthOnTheBeach_Tests/Pods-InstagramAuthOnTheBeach_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3E779DF2A13AB9C317BC491EAADC1FED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 887FAA283D680900295163951DC85074 /* InstagramAuthOnTheBeach.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/InstagramAuthOnTheBeach/InstagramAuthOnTheBeach-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/InstagramAuthOnTheBeach/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/InstagramAuthOnTheBeach/InstagramAuthOnTheBeach.modulemap";
+				PRODUCT_MODULE_NAME = InstagramAuthOnTheBeach;
+				PRODUCT_NAME = InstagramAuthOnTheBeach;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3FE256F0AC23BB686B725470C3DE413D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 946A3A2DAF91C59FC020578385F2E8DE /* Pods-InstagramAuthOnTheBeach_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-InstagramAuthOnTheBeach_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InstagramAuthOnTheBeach_Tests/Pods-InstagramAuthOnTheBeach_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B07F33E0DF5C46433A00D10132ECC69A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21CAD6A86E546F6E8C4E66D02B038CB5 /* Pods-InstagramAuthOnTheBeach_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-InstagramAuthOnTheBeach_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InstagramAuthOnTheBeach_Example/Pods-InstagramAuthOnTheBeach_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BD5DEE855BFF8BE7C54100066ACCA1AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58D3B9CE696E43B57BC3B33B374AA8C7 /* Pods-InstagramAuthOnTheBeach_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-InstagramAuthOnTheBeach_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InstagramAuthOnTheBeach_Example/Pods-InstagramAuthOnTheBeach_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D2DD0E107345BB793DDABEB42C78B3E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 887FAA283D680900295163951DC85074 /* InstagramAuthOnTheBeach.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/InstagramAuthOnTheBeach/InstagramAuthOnTheBeach-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/InstagramAuthOnTheBeach/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/InstagramAuthOnTheBeach/InstagramAuthOnTheBeach.modulemap";
+				PRODUCT_MODULE_NAME = InstagramAuthOnTheBeach;
+				PRODUCT_NAME = InstagramAuthOnTheBeach;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A055294691A6FA031AFBA51A15D38BA /* Build configuration list for PBXNativeTarget "InstagramAuthOnTheBeach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E779DF2A13AB9C317BC491EAADC1FED /* Debug */,
+				D2DD0E107345BB793DDABEB42C78B3E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D0AED04E425549833749C099263F36E /* Build configuration list for PBXNativeTarget "Pods-InstagramAuthOnTheBeach_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FE256F0AC23BB686B725470C3DE413D /* Debug */,
+				007FB8F48CAFD29B8119D78D10FF1842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD46192977E2D3BAC1EEF860C3C14504 /* Build configuration list for PBXNativeTarget "Pods-InstagramAuthOnTheBeach_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5DEE855BFF8BE7C54100066ACCA1AA /* Debug */,
+				B07F33E0DF5C46433A00D10132ECC69A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
