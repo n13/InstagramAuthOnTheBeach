@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'InstagramAuthOnTheBeach_Example' do
+  pod 'InstagramAuthOnTheBeach', :path => '../'
+
+  target 'InstagramAuthOnTheBeach_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
