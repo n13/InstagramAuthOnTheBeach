@@ -137,6 +137,16 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		24C1037420EF10C700735833 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				24C1036C20EF039300735833 /* BaseWebViewController.swift */,
+				24C1036D20EF039300735833 /* InstagramAuthViewController.swift */,
+				24C1036720EF039300735833 /* Extensions */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		4E4B911DD85D98F307FFED5B7D4F5476 /* Pods-InstagramAuthOnTheBeach_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -214,9 +224,7 @@
 		ACE59A3F609DD93AF23CB90BA0CC2AA0 /* InstagramAuthOnTheBeach */ = {
 			isa = PBXGroup;
 			children = (
-				24C1036C20EF039300735833 /* BaseWebViewController.swift */,
-				24C1036D20EF039300735833 /* InstagramAuthViewController.swift */,
-				24C1036720EF039300735833 /* Extensions */,
+				24C1037420EF10C700735833 /* Classes */,
 				89B3DDA6C4ACCC289F9368834F328816 /* Pod */,
 				19A9173F45821F8AA88D983EACAC90E7 /* Support Files */,
 			);
