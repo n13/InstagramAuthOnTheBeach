@@ -35,11 +35,11 @@ class ViewController: UIViewController {
         let vc = InstagramAuthViewController()
         
         // Set the Instagram specific variables for your client
-        vc.instagramClientId = "deb0a066f1394cd29bdf20a53c26e666"
+        vc.instagramClientId = "YOUR-CLIENT-ID-HERE"
         // For the redirect URL, make sure it's one of the allowed URLs on your client
         // Others use https://www.instagram.com/ but that makes detecting the URL more difficult as 
         // IG makes dozens of calls to this url and we then have to filter out the right one
-        vc.instagramRedirectURL = "https://connect.earth/"
+        vc.instagramRedirectURL = "YOUR-REDIRECT-URL-HERE"
         
         vc.doneAction = { [weak self] success, token in 
             
