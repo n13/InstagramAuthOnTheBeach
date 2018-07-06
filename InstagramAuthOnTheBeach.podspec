@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
     s.name             = 'InstagramAuthOnTheBeach'
     s.version          = '0.1.0'
     s.summary          = 'The simlpe yet precise way to authenticate with Instagram'
+    s.swift_version    = '4.0'
     
     # This description is used to generate tags and improve search results.
     #   * Think: What does it do? Why did you write it? What is the focus?
@@ -30,7 +31,7 @@ Pod::Spec.new do |s|
         
         s.ios.deployment_target = '9.0'
         
-        s.source_files = 'InstagramAuthOnTheBeach/Classes/**/*'
+        s.source_files = 'Classes/**/*'
         
         # s.resource_bundles = {
         #   'InstagramAuthOnTheBeach' => ['InstagramAuthOnTheBeach/Assets/*.png']
