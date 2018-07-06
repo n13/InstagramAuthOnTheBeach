@@ -1,0 +1,6 @@
+framework module Pods_InstagramAuthOnTheBeach_Example {
+  umbrella header "Pods-InstagramAuthOnTheBeach_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

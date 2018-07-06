@@ -1,0 +1,16 @@
+PODS:
+  - InstagramAuthOnTheBeach (0.1.0)
+
+DEPENDENCIES:
+  - InstagramAuthOnTheBeach (from `../`)
+
+EXTERNAL SOURCES:
+  InstagramAuthOnTheBeach:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  InstagramAuthOnTheBeach: 6d1e640be8c0757d27483737b1b8d28e1e633cfd
+
+PODFILE CHECKSUM: c788270941c341880e2d86f0200ceef408d69604
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,6 @@
+framework module InstagramAuthOnTheBeach {
+  umbrella header "InstagramAuthOnTheBeach-umbrella.h"
+
+  export *
+  module * { export * }
+}
