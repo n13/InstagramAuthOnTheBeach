@@ -64,6 +64,10 @@ Then
 2. Create a valid redirect URI - ideally this is your own domain or website, but can be any valid URI - we don't really access the URI, we only use it to detect the token
 3. Uncheck the 'Disable implicit OAuth" checkbox. Because that's what we're using, implicit oauth.
 
+See the image 
+
+![alt tag](https://user-images.githubusercontent.com/65412/42405655-4cb602b8-81cc-11e8-9d0c-e66f2b8a5ab9.png)
+
 ## Installation
 
 InstagramAuthOnTheBeach is available through [CocoaPods](https://cocoapods.org). To install
