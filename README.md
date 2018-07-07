@@ -49,7 +49,20 @@ Check it out!!!
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+## Instagram Setup
+
+Log into [Instagram Developer](https://www.instagram.com/developer/) 
+
+Clieck 'Register a new Client'
+
+Click "Manage Client" button
+
+Go to Security Tab
+
+Then
+1. Get the client ID
+2. Create a valid redirect URI - ideally this is your own domain or website, but can be any valid URI - we don't really access the URI, we only use it to detect the token
+3. Uncheck the 'Disable implicit OAuth" checkbox. Because that's what we're using, implicit oauth.
 
 ## Installation
 
