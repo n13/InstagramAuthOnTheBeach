@@ -15,7 +15,7 @@ It works like this
 1. Pop a view controller of type InstagramAuthViewController
 2. Set your Instagram client ID and redirect URL
 3. Receive an auth token
-4. Call into the [Instagram API]https://www.instagram.com/developer/) using the auth token 
+4. Call into the [Instagram API](https://www.instagram.com/developer/) using the auth token 
 
 I recommend using Alamofire or something reasonable like that to make the API calls - there's an example in the Example project
 
